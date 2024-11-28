@@ -1,0 +1,43 @@
+
+body{
+    background-color: pink;
+    font-family: 'Open Sans';
+    margin-top:0;
+}
+header > img{
+    display: block;
+    max-width: 90%;
+    height:auto;
+    margin-left: 5%;
+}
+.quote{
+    margin-right:5%;
+    background: rgba(235, 235, 235, 0.2);
+}
+main{
+    box-sizing: border-box;
+    background-color: white;
+    padding-top: 1%;
+    padding-left: 5%;
+    margin-left: 5%;
+    width: 90%;
+    height: 80%;
+}
+.ingredients > h2{
+    display: inline-block;
+}
+.ingredients > span{
+    margin-left: 10px;
+    font-size: 24px;
+}
+figure{
+    display: flex;
+    height: 30rem;
+    gap: 1.5rem;
+    margin-right: 10%;
+    padding-bottom: 5%;
+}
+.servingimg{
+    height: 100%;
+    width: 50%;
+}

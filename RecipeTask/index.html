@@ -3,76 +3,21 @@
     <head>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="styles.css">
         <title>PannkaksRecept</title>
     </head>
-    <style>
-        body{
-            background-color: pink;
-            font-family: 'Open Sans';
-        }
-        .header{
-            margin: auto;
-            width: 50%;
-            height: 50%;
-        }
-        .header > img{
-            display: block;
-            margin-left:auto;
-            margin-right: auto;
-            object-fit: cover;
-            width: 100%;
-        }
-        .main{
-            margin:auto;
-            width: 50%;
-            height: 780px;
-            background-color: white;
-            overflow:auto;
-            padding-top: 1%;
-            margin-bottom: 10px;
-        }
-        .content{
-            margin-left: 5%;
-            width: 90%;
-            height: 80%;
-        }
-        .quote{
-            background: rgba(235, 235, 235, 0.2);
-            padding: 3px;
-        }
-        .ingredients > h2{
-            display: inline-block;
-        }
-        .ingredients > span{
-            margin-left: 10px;
-            font-size: 24px;
-        }
-        .quote > p{
-            margin-left: 3%;
-        }
-        .servingexamples > img {
-            margin-left: auto;
-            margin-right: auto;
-            padding-left: 20px;
-            object-fit: cover;
-            width: 46%;
-            height: 200px;
-            float:left;
-        }
-    </style>
+    <header>
+            <img src="headerpng.jfif" alt="Header Pancake Example">
+    </header>
     <body >
-        <div class="header">
-            <img src="headerpng.jfif" alt="Fina Pannkakor">
-        </div>
-        <div class="main">
-            <div class="content">
-                <div class="headline">
+        <main class="main">
+                <section class="headline">
                 <h1 style="color:rgba(161, 0, 0, 1);">Enkelt recept på pannkakor</h1>
-                </div>
-                <div class="quote">
+                </section>
+                <section class="quote">
                     <p>Gör traditionella tunna pannkakor med detta enkla och goda pannkaksrecept.</p>
-                </div>
-                <div class="ingredients">
+                </section>
+                <section class="ingredients">
                     <h2>Ingredienser</h2>
                     <span>(4 port)</span>
                     <ul>
@@ -83,8 +28,8 @@
                         <li>smör (till stekning)</li>
                         <li>sylt, bär eller frukt till servering</li>
                     </ul>
-                </div>
-                <div class="instructions">
+                </section>
+                <section class="instructions">
                     <h2>Så här gör du</h2>
                     <ol>
                         <li> Blanda mjöl och salt i en bunke.</li>
@@ -94,13 +39,13 @@
                         <li>Stek tunna pannkakor i lite smör, för varje pannkaka, i en stek- eller pannkakspanna.</li>
                         <li>Servera med sylt, bär eller frukt.</li>
                     </ol>
-                </div>
-                <div class="servingexamples">
+                </section>
+                <section class="servingexamples">
                     <h2>Serveringsförslag</h2>
-                    <img src="recipepng1.jfif" alt="jävligt tunna pannkakor">
-                    <img src="recipepng2.jfif" alt="för lite sylt">
-                </div>
-            </div>
-        </div>
+                    <figure><img src="recipepng1.jfif" class="servingimg" alt="Pancake Example 1">
+                    <img src="recipepng2.jfif" class="servingimg" alt="Pancake Example 2">
+                    </figure>
+                </section>
+        </main>
     </body>
 </html>
